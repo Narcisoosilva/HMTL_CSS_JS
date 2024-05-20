@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Narciso Oliveira">
+  <meta name="description" content="apredendendo HTML tabela e atributos de Estilo.">
+ 
+  <title>Document</title>
+</head>
+<body>
+
+  <h3>Recodando atributos de estilos</h3>
+  <div style="background-color: brown;">
+    <p>Podemos aplicar os estilos em diferentes partes do documento.</p>
+    <br><br>
+    <p>Como é atributo, pode acompanhar a <b>tag</b> na qual esta presente e aplicar o estilo.</p>
+  </div>
+  <h1>HTML Classes</h1>
+  <style>
+    .cidade {
+      background-color: rgb(23, 1, 223);
+      color: rgb(159, 241, 5);
+      border-color: black;
+      margin: 15px;
+      padding: 20px;
+    }
+    .cidade_2 {
+      background-color: rgb(2, 250, 113);
+      color: rgb(233, 3, 145);
+      border-color: black;
+      margin: 15px;
+      padding: 20px;
+    }
+    #idCabecalho {
+      background-color: coral;
+      color: aqua;
+      border-color: black;
+      margin: 15px;
+      padding: 40px;
+      text-align: center;
+    }
+    #idRodaPe {
+      background-color: rgb(3, 238, 34);
+      color: rgb(48, 5, 236);
+      border-color: rgb(255, 0, 0);
+      margin: 15px;
+      padding: 40px;
+      font-size: small;
+      text-align: center;
+    }
+  </style>
+  
+  <div class="cidade">
+    <h2>São Paulo</h2>
+    <p>É a terra da garoa.</p>
+  </div>
+  <div class="cidade">
+    <h2>Rio de Janeiro</h2>
+    <p>Cidade maravilhosa</p>
+  </div>
+  <div class="cidade_2">
+    <h2>Guarujá</h2>
+    <p>É a terra onde eu moro.</p>
+  </div>
+
+  <h3 id="idCabecalho"> Cabeçalho padrão do meu documento</h3>
+  <h3 id="idRodaPe">Este é meu roda pé.</h3>
+</body>
+</html>
